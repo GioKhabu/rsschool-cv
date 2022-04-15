@@ -1,1 +1,1 @@
-# [rsschool-cv] (https://giokhabu.github.io/rsschool-cv/cv)
+# [rsschool-cv] (https://giokhabu.github.io/rsschool-cv/)
