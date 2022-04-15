@@ -24,3 +24,6 @@ SQL Server Essentials, from Scratch - Udemy, Issued Jul 2020, Credential ID UC-d
 The Complete 2022 Web Development Bootcamp - Udemy
 Issued Jan 2022,
 Credential ID UC-b53d358d-6b9d-44f1-a03d-a9f34d23f25f
+
+### __English:__
+I have been working in international projects more than 12 year, have published several articles in English and am confident in speaking as well as in writting.
