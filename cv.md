@@ -12,3 +12,15 @@ Currently trying to become Front-end developer by grasping some knowledge in HTM
 ### __Skills:__ 
 
 msSQL, C#, GIT, HTML, CSS, JavaScript, React
+
+### __Education:__ 
+
+Ilia State University, Master's degree, Archaeology - 2018 – 2019
+
+Tbilisi State University, Bachelor's degree,Archaeology, 2006 – 2010
+
+SQL Server Essentials, from Scratch - Udemy, Issued Jul 2020, Credential ID UC-d740251f-4091-4c66-be0d-e0d9f5dd7427
+
+The Complete 2022 Web Development Bootcamp - Udemy
+Issued Jan 2022,
+Credential ID UC-b53d358d-6b9d-44f1-a03d-a9f34d23f25f
