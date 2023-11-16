@@ -9,7 +9,7 @@
 
 ### __Skills:__ 
 
-msSQL, C#, GIT, HTML, CSS, JavaScript, React
+####  msSQL, C#, GIT, HTML, CSS, JavaScript, React
 
 ### __Code examples:__ 
 
@@ -17,3 +17,30 @@ msSQL, C#, GIT, HTML, CSS, JavaScript, React
 - Live Site URL: [https://giokhabu.github.io/Calculator/](https://giokhabu.github.io/Calculator/)
 
 ### __Experience:__ I have no further experience in building applications all myself rather then solving tasks from courses.
+
+### __Education:__ 
+
+Complete React Developer in 2023 (w/ Redux, Hooks, GraphQL), Zero To Mastery Academy. Issued March 2023,
+
+__Link:__ [https://www.udemy.com/certificate/UC-3be8013d-c4ee-481e-b233-33e7ea15984f/](https://www.udemy.com/certificate/UC-3be8013d-c4ee-481e-b233-33e7ea15984f/)
+
+The Joy of React, Josh Comeau Courses. Issued Feb 2023,
+
+__Link:__ [https://courses.joshwcomeau.com/certificate/63fb61df9023ece2efab3261](https://courses.joshwcomeau.com/certificate/63fb61df9023ece2efab3261)
+
+JS/FE COURSE EN 2022 (JAVASCRIPT), The Rolling Scopes School. Issued Oct 2022,
+
+__Link:__ [https://app.rs.school/certificate/i8qcg3rg](https://app.rs.school/certificate/i8qcg3rg)
+
+The Complete 2022 Web Development Bootcamp - Udemy
+Issued Jan 2022,
+
+__Link:__ [https://ude.my/UC-b53d358d-6b9d-44f1-a03d-a9f34d23f25f](https://ude.my/UC-b53d358d-6b9d-44f1-a03d-a9f34d23f25f)
+
+SQL Server Essentials, from Scratch - Udemy, 
+Issued Jul 2020,
+
+__Link:__ [https://www.udemy.com/certificate/UC-d740251f-4091-4c66-be0d-e0d9f5dd7427/](https://www.udemy.com/certificate/UC-d740251f-4091-4c66-be0d-e0d9f5dd7427/)
+
+### __English:__
+I have been working in international projects more than 12 year, have published several articles in English and am confident in speaking as well as in writting.
