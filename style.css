@@ -1,0 +1,22 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    padding-bottom: 50px;
+}
+
+.cv-wrapper {
+    max-width: 700px;
+    margin: 100px auto auto auto;
+}
+
+header {
+    text-align: center;
+    margin: 0;
+    height: 50px;
+}
+
+:is(h1, h2, h3, h4, h5, h6) {
+    display: inline-block;
+    margin: 0;
+}
