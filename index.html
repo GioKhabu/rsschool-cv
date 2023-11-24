@@ -12,14 +12,13 @@
       <main>
         <article>
           <h2>Main info:</h2>
-          <div class="contact-group">
-            <h3>Email:</h3>
-            <h4>giokhabu@gmail.com</h4>
-          </div>
-          <div class="contact-group">
-            <h3>Mob:</h3>
-            <h4>(+995) 577278029</h4>
-          </div>
+          <nav>
+            <ul>
+                <li>Email: <a href="mailto:giokhabu@gmail.com">giokhabu@gmail.com</a></li>
+                <li>Mob:<a href="tel:+995577-278-029">(+995) 577278029</a></li>
+                <li>Linkedin: <a href="linkedin.com/in/giorgi-khaburzania-92010272">Giorgi Khaburzania</a></li>
+            </ul>
+          </nav>
           <hr>
           <p>
             I have more than 10 year experience as an IT Project Manager and Business Analyst in
@@ -36,13 +35,13 @@
         <article>
           <h2>Skills:</h2>
           <ul>
-            <li>GIT</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>msSQL</li>
-            <li>C#</li>
+            <li><a href="https://en.wikipedia.org/wiki/Git">GIT</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/HTML">HTML</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/CSS">CSS</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/React_(software)">React</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Microsoft_SQL_Server">msSQL</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)">C#</a></li>
           </ul>
         </article>
         <hr>
@@ -63,6 +62,150 @@
                 >
               </li>
             </ul>
+            <pre>
+            <code>
+        onClick={() => {
+          if (
+            (initial === true) &
+            (value === 1 ||
+              value === 2 ||
+              value === 3 ||
+              value === 4 ||
+              value === 5 ||
+              value === 6 ||
+              value === 7 ||
+              value === 8 ||
+              value === 9 ||
+              value === 0 ||
+              (value === '.') & !currentNum.includes('.') & (currentNum.length !== 0))
+          ) {
+            setCurrentNum(String(currentNum) + String(value));
+            setResult('');
+            setmathOperator('');
+          } else if (
+            (initial === false) &
+            (value === 1 ||
+              value === 2 ||
+              value === 3 ||
+              value === 4 ||
+              value === 5 ||
+              value === 6 ||
+              value === 7 ||
+              value === 8 ||
+              value === 9 ||
+              value === 0 ||
+              (value === '.') & !nextNum.includes('.') & (nextNum.length !== 0))
+          ) {
+            setNextNum(String(nextNum) + String(value));
+          } else if (value === '+') {
+            if (mathOperator !== '+') {
+              if (result.length > 0) {
+                setCurrentNum(result);
+                setResult('');
+                setmathOperator('+');
+                setInitial(false);
+              } else {
+                setmathOperator('+');
+                setInitial(false);
+              }
+            } else if (mathOperator === '+' && nextNum.length !== 0) {
+              setCurrentNum(String(Number(currentNum) + Number(nextNum)));
+              setNextNum('');
+            }
+          } else if (value === '-') {
+            if (mathOperator !== '-') {
+              if (result.length > 0) {
+                setCurrentNum(result);
+                setResult('');
+                setmathOperator('-');
+                setInitial(false);
+              } else {
+                setmathOperator('-');
+                setInitial(false);
+              }
+            } else if (mathOperator === '-' && nextNum.length !== 0) {
+              setCurrentNum(String(Number(currentNum) - Number(nextNum)));
+              setNextNum('');
+            }
+          } else if (value === 'x') {
+            if (mathOperator !== 'x') {
+              if (result.length > 0) {
+                setCurrentNum(result);
+                setResult('');
+                setmathOperator('x');
+                setInitial(false);
+              } else {
+                setmathOperator('x');
+                setInitial(false);
+              }
+            } else if (mathOperator === 'x' && nextNum.length !== 0) {
+              setCurrentNum(String(Number(currentNum) * Number(nextNum)));
+              setNextNum('');
+            }
+          } else if (value === '/') {
+            if (mathOperator !== '/') {
+              if (result.length > 0) {
+                setCurrentNum(result);
+                setResult('');
+                setmathOperator('/');
+                setInitial(false);
+              } else {
+                setmathOperator('/');
+                setInitial(false);
+              }
+            } else if (mathOperator === '/' && nextNum.length !== 0) {
+              setCurrentNum(String(Number(currentNum) / Number(nextNum)));
+              setNextNum('');
+            }
+          } else if (value === 'RESET') {
+            setCurrentNum('');
+            setResult('');
+            setNextNum('');
+            setInitial(true);
+            setmathOperator('');
+          } else if (value === '=') {
+            if (mathOperator === '+') {
+              setCurrentNum(String(Number(currentNum) + Number(nextNum)));
+              setResult(String(Number(currentNum) + Number(nextNum)));
+              setCurrentNum('');
+              setInitial(true);
+              setNextNum('');
+              setmathOperator('');
+            } else if (mathOperator === '-') {
+              setCurrentNum(String(Number(currentNum) - Number(nextNum)));
+              setResult(String(Number(currentNum) - Number(nextNum)));
+              setCurrentNum('');
+              setInitial(true);
+              setNextNum('');
+              setmathOperator('');
+            } else if (mathOperator === 'x') {
+              setCurrentNum(String(Number(currentNum) * Number(nextNum)));
+              setResult(String(Number(currentNum) * Number(nextNum)));
+              setCurrentNum('');
+              setInitial(true);
+              setNextNum('');
+              setmathOperator('');
+            } else if (mathOperator === '/') {
+              setCurrentNum(String(Number(currentNum) / Number(nextNum)));
+              setResult(String(Number(currentNum) / Number(nextNum)));
+              setCurrentNum('');
+              setInitial(true);
+              setNextNum('');
+              setmathOperator('');
+            }
+          } else if (value === 'DEL') {
+            if (initial === true) {
+              const deleted = currentNum.slice(0, -1);
+              setCurrentNum(deleted);
+            } else {
+              const deleted = nextNum.slice(0, -1);
+              setNextNum(deleted);
+            }
+          }
+        }}
+            </code>
+            </pre>
+
         </article>
         <hr>
         <article>
@@ -129,7 +272,7 @@
         </div>
         <div class="date">
           <h3>Date:</h3>
-          <h3>24.11.2023</h3>
+          <h3>11.2023</h3>
         </div>
         <div>
           <a href="https://rs.school/">
