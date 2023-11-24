@@ -5,7 +5,12 @@ body {
     padding-bottom: 50px;
 }
 
+div {
+    display: inline-block;
+}
+
 .cv-wrapper {
+    display: block;
     max-width: 700px;
     margin: 100px auto auto auto;
 }
@@ -20,3 +25,21 @@ header {
     display: inline-block;
     margin: 0;
 }
+
+h2 {
+    margin: 10px 10px;
+}
+
+
+
+img {
+    width: 100px;
+    height: 40px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+
